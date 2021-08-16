@@ -10,5 +10,7 @@ Dado('que eu faça um GET no endpoint countries\/Brazil') do
   
   Entao('o retorno dele será todos os dados do Brazil') do
     puts @get_country.body
+    puts "Quantidade de informações: "+@get_country.size.to_s
+    puts @get_country.message
   end
   
