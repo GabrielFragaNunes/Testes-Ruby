@@ -1,0 +1,13 @@
+source "https://rubygems.org"
+
+gem 'cucumber'
+gem 'rspec'
+gem 'rake'
+gem 'httparty'
+gem "faker"
+gem 'json-schema-rspec'
+gem "json_matchers"
+gem 'pry'
+gem 'capybara'
+gem 'date'
+gem 'factory_bot'
